@@ -63,6 +63,7 @@ public class Piirtoalusta extends JPanel{
         g.setFont(new Font("TimesRoman", Font.PLAIN, 80));
         g.drawString("GAME OVER", 300, 300);
         g.setFont(new Font("Lobster Two", Font.PLAIN, 25)); 
+        g.drawString("(That means you lost)", 770, 435);
     }
     
     private void displayVictory(Graphics g){
